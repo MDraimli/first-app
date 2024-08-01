@@ -1,0 +1,65 @@
+.form-label {
+    margin-bottom: .5rem
+}
+
+.col-form-label {
+    padding-top: calc(.375rem + var(--bs-border-width));
+    padding-bottom: calc(.375rem + var(--bs-border-width));
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5
+}
+
+.col-form-label-lg {
+    padding-top: calc(.5rem + var(--bs-border-width));
+    padding-bottom: calc(.5rem + var(--bs-border-width));
+    font-size: 1.25rem
+}
+
+.col-form-label-sm {
+    padding-top: calc(.25rem + var(--bs-border-width));
+    padding-bottom: calc(.25rem + var(--bs-border-width));
+    font-size: .875rem
+}
+
+.form-text {
+    margin-top: .25rem;
+    font-size: .875em;
+    color: var(--bs-secondary-color)
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    outline: none;
+}
+
+.form-control.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+    background: #fff;
+}
+
+.btn {
+    @apply px-3 py-1 rounded-md text-white;
+}
+
+label {
+    color: var(--main-color);
+    transition: .6s top;
+}
+
+.justify-content-start {
+    justify-content: start !important;
+}
